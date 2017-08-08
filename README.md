@@ -3,7 +3,7 @@ Android Fecha
 
 ## Desarrollo
 
-```
+```java
 // Obtenemos la fecha
 DateFormat df = new SimpleDateFormat("dd-MM-yyyy,HH:mm");
 String date = df.format(Calendar.getInstance().getTime());
